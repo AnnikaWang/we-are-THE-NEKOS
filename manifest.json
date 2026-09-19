@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Neko Notes",
+  "version": "1.0.0",
+  "description": "A tiny cat companion for gentle mental health affirmations.",
+  "action": {
+    "default_title": "Open Neko Notes",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  }
+}

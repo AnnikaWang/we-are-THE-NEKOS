@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neko Notes</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div class="brand"><span class="brand-mark">✦</span><span>Neko Notes</span></div>
+        <button class="icon-button" id="sound-toggle" type="button" aria-label="Toggle purr sound" aria-pressed="false" title="Toggle purr sound">◖</button>
+      </header>
+
+      <section class="hero" aria-labelledby="page-title">
+        <div class="eyebrow"><span class="status-dot"></span> your gentle pause</div>
+        <h1 id="page-title">A little kindness,<br /><em>for your mind.</em></h1>
+        <div class="cat-stage" aria-label="A smiling orange cat named Miso">
+          <div class="sun-ring"></div>
+          <div class="cat-shadow"></div>
+          <div class="cat" role="img" aria-label="Miso the cat smiling">
+            <span class="ear left-ear"></span><span class="ear right-ear"></span>
+            <span class="cat-face"><i class="eye left-eye"></i><i class="eye right-eye"></i><i class="nose"></i><i class="mouth"></i><i class="whisker w1"></i><i class="whisker w2"></i><i class="whisker w3"></i><i class="whisker w4"></i></span>
+          </div>
+          <span class="sparkle sparkle-one">✦</span><span class="sparkle sparkle-two">✧</span>
+        </div>
+        <p class="cat-name">Miso says:</p>
+        <blockquote id="affirmation">“You are allowed to take up space, exactly as you are.”</blockquote>
+      </section>
+
+      <section class="actions" aria-label="Affirmation actions">
+        <button class="primary-button" id="next-button" type="button"><span>Another one</span><span class="button-arrow">↗</span></button>
+        <button class="save-button" id="save-button" type="button"><span class="heart" aria-hidden="true">♡</span><span id="save-label">Save this thought</span></button>
+      </section>
+
+      <footer class="footer-note"><span class="paw">♢</span> no pressure. just one breath at a time.</footer>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
